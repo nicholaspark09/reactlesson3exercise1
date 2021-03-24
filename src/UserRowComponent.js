@@ -6,8 +6,7 @@ class UserRowComponent extends Component {
    	return (
      	<li className='user-list-item'>
       		<div className='user-details'>
-      			<p>{this.props.user.name}</p>
-				<p>{this.props.movie.name}</p>
+      			<p>{this.props.user.name}'s favorite movie is <b>{this.props.movie.name}</b></p>
       		</div>
       	</li>
     )
